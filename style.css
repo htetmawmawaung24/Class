@@ -1,0 +1,20 @@
+form{
+	top: 300px;
+	left: 500px;
+	color: navy;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+button{
+	top: 100px;
+	left: 300px;
+	padding: 20px;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin: auto;
+	color: red;
+	border: 1px solid black;
+}
+body{
+	background: salmon;
+}
