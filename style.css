@@ -1,38 +1,104 @@
-*{
-	padding: 0;
-	margin: 0;
+/* Style Contact Page */
+
+form{
+	display: inline-block;
+	position: absolute;
+	top: 300px;
+	left: 500px;
 }
-body{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+input{
+	display: inline-block;
 }
-.media{
-	border: 1px solid red;
-	border-radius: 20px;
-	padding: 20px;
+button{
+	border: 25px solid chocolate;
+	color: black;
+	background-color: chocolate;
+
 }
-img{
-	border-radius: 100%;
-	*{
-		padding: 0;
-		margin: 0;
-	}
-	body,html{
-		height: 100%
-	}
-	body{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.media{
-		border: 1px solid red;
-		border-radius: 20px;
-	}
-	.image{
-		border-radius: 100%;
-	}
-	.media{
-		display: flex;
-	}
+.p{
+	font-style: bold;
+	font-size: 30px;
+	color: black;
+}
+/*#contact {
+background-image: url("f1.jpg");
+}
+
+/* Style Navigation Menu */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: chocolate;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: darkred;
+}
+a:hover {
+  color: darkgreen;
+}
+a:active {
+  color: indigo;
+}
+
+/* Style About Page */
+
+img {
+    float: none;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    background-color: chocolate;
+}
+
+p{
+  font-size: 20px;
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+/* Style Home Page */
+
+.boxmodel{
+  width: 300px;
+  height: 200px;
+  text-decoration: none;
+  border: 5px solid brown;
+  color: chocolate;
+  text-align: center;
+}
+/*body  {
+  background-image: url("e1.jpg");
+  background-color: chocolate;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}*/
+.para{
+  text-decoration: none;
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  top: 100px;
+  text-align: left;
+}
